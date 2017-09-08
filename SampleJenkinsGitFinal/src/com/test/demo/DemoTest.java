@@ -9,14 +9,14 @@ public class DemoTest {
 	public void testMethod1() throws Exception {
 
 		System.out.println("This is:  testMethod1");
-		Assertions.assertTrue("", false);
+		Assertions.assertTrue("", true);
 
 	}
 	
 	public void testMethod2() throws Exception {
 
 		System.out.println("This is:  testMethod2");
-		Assertions.assertTrue("", true);
+		Assertions.assertTrue("", false);
 
 	}
 	
