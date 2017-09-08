@@ -9,7 +9,7 @@ public class DemoTest {
 	public void testMethod1() throws Exception {
 
 		System.out.println("This is:  testMethod1");
-		Assertions.assertTrue("", true);
+		Assertions.assertTrue("", false);
 
 	}
 	
